@@ -1,0 +1,92 @@
+body {
+background-color: bisque;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+    background-color: #4ab680bd;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type:none;
+    padding: 0;
+}
+
+nav ul li {
+
+   display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 10px;
+}
+
+.projeto {
+    border: 8px solid #7ea170;
+    padding: 10px;
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: #4ab680bd;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+#contato {
+    border: 10px;
+    padding: 50px 10px;
+    text-align:left;
+}
+
+p {
+    text-align: justify;
+}
+
+h1, h2 {
+
+    text-align: center;
+
+}
+
+img {
+    
+    position: relative;
+    left: 80%;
+    width: 15%;
+    height: 15%;
+    border-color: black;
+    border-style:solid;
+    border-radius: 40%;
+    border-width: 10px;
+  
+}
+
+nav :hover{
+
+    color: black;
+}
+
+
+.direitos{
+
+    text-align: center;
+}
